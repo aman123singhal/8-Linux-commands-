@@ -94,7 +94,7 @@ In the abbove command:
 Now well will locate the file with the command:
 
 ~~~
-$ locate alertmanager 
+$ locate alertmanager.yml
 ~~~
 (output)
 ~~~
