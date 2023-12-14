@@ -132,15 +132,22 @@ alertmanager.yml
 
 ## 4. Move or rename a file
 
-Rename a file we will use command :
+To rename a file, we will use command :
 
 first we have to go in the directoruy by the cd command.
 ~~~
-$ cd Docuemnt
+$ cd Docuemnts
 ~~~
+In the above command:
+- 'cd' is used for change the direcotory.
+- 'Documents' is the name of directory.
 ~~~
 $ mv alertmanger.yml alert.yml
 ~~~
+In the above command:
+- 'mv' is used for rename the file.
+- 'alertmanager.yml' is the name of the existing file.
+- 'alert.yml' is the new name of the file.
 (outpu)
 ~~~
 aman@aman:~/Documents$ ls
@@ -156,12 +163,19 @@ Move a file with the help of the command given below:
 ~~~
 $ mv /home/aman/alermanagmanager/alert.yml /home/aman/Documents 
 ~~~
+In the above command:
+- 'mv' is used for moving the file.
+- '/home/aman/alermanagmanager/alert.yml' is the apth of the file file where it is existing.
+- '/home/aman/Documents' is the path where we want to move the file.
 
 Now we will go to the 'Documents' directory with command :
 
 ~~~
 cd Documents
 ~~~
+In the above command:
+- 'cd' is used for change the direcotory.
+- 'Documents' is the name of directory.
 
 ~~~
 aman@aman:~/Documents$ 
@@ -214,6 +228,10 @@ Now we will remove thies files with single command:
 ~~~
 $ rm aman singhalss kumar 
 ~~~
+In the above command:
+- 'rm' is used for removing the files 
+- 'aman singhalss kumar' are names of teh files. 
+
 (output)
 ~~~
 aman@aman:~$ rm aman singhalss kumar
@@ -223,9 +241,7 @@ aman@aman:~$ ls
 'aman '          awscliv2.zip   Dockerfile   Downloads   minio.sh                                 prometheus   snap              ubuntu-22.04.3-desktop-amd64.iso
 ~~~
 
-In the above command:
-- 'rm' is used for removing the files 
-- 'aman singhalss kumar' are names of teh files.  
+ 
 
 ![Alt text](9.png)
 
@@ -244,15 +260,17 @@ As we can se in the above image that we have a file in the Documents directory w
 $ rm /home/aman/Documents/alertmanager.yml
 ~~~
 
+In the above command :
+- 'rm' is used for removing the content.
+- '/home/aman/Documents/alertmanager.yml' is the path of the content.
+
 (Output)
 ~~~
 aman@aman:~$ rm /home/aman/Documents/alertmanager.yml
 aman@aman:~$ cd Documents
 aman@aman:~/Documents$ ls
 ~~~
-In the above command :
-- 'rm' is used for removing the content.
-- '/home/aman/Documents/alertmanager.yml' is the path of the content.
+
 
 ![Alt text](11.png)
 
