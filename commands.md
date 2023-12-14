@@ -148,7 +148,8 @@ In the above command:
 - 'mv' is used for rename the file.
 - 'alertmanager.yml' is the name of the existing file.
 - 'alert.yml' is the new name of the file.
-(outpu)
+
+(output)
 ~~~
 aman@aman:~/Documents$ ls
 alert.yml
